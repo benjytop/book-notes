@@ -1,0 +1,25 @@
+# EPUB 源文件不上传 (版权风险)
+# 这些是图书原文, 默认排除, 你自己下载和保留
+*.epub
+*.pdf
+*.mobi
+*.azw
+*.azw3
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian 配置 (本地配置, 每个人不同)
+.obsidian/
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
