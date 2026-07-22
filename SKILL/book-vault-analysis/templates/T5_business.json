@@ -1,0 +1,12 @@
+{
+  "type_id": "T5_business",
+  "type_name": "商业/管理",
+  "type_name_en": "Business / Management",
+  "vault_subdirs": ["原则", "案例", "框架"],
+  "mermaid_filename": "框架图.mermaid.md",
+  "mermaid_template": "business",
+  "entity_count_range": [10, 20],
+  "extraction_prompt": "你正在读《<书名>》这本商业/管理书。从 spine 片段中抽取:\n\n任务 1: 原则 (10-15 个)\n- 原则名\n- 解释 (1-2 句)\n- 例子 (1 个)\n- 应用场景\n\n任务 2: 案例 (5-10 个)\n- 案例名\n- 背景\n- 启示\n\n任务 3: 框架 (optional)\n- 框架名\n- 描述\n- 适用场景\n\n任务 4: 框架图 (Mermaid)\n- 节点: 原则/案例\n- 边: 应用/例子",
+  "sub_examples": ["商业", "创业", "管理", "营销", "领导力"],
+  "example_books": ["纳瓦尔宝典"]
+}

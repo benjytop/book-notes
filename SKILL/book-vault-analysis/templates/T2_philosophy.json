@@ -1,0 +1,13 @@
+{
+  "type_id": "T2_philosophy",
+  "type_name": "思想史/哲学",
+  "type_name_en": "Intellectual History / Philosophy",
+  "vault_subdirs": ["思想家", "概念", "思想流派"],
+  "subdirs_optional": ["思想流派"],
+  "mermaid_filename": "思想影响图.mermaid.md",
+  "mermaid_template": "philosophy",
+  "entity_count_range": [12, 20],
+  "extraction_prompt": "你正在读《<书名>》这本思想史/哲学著作。从 spine 片段中抽取:\n\n任务 1: 思想家列表 (12-19 个)\n- 出生/逝世年代\n- 国籍\n- 主要著作 (3-5 部)\n- 核心思想 (一句话)\n- 思想流派\n- 影响其他思想家 (师承/批判/继承)\n\n任务 2: 核心概念 (8-15 个)\n- 概念名\n- 简单定义 (1 行)\n- 提出者\n- 应用领域\n\n任务 3: 思想流派 (3-5 个, optional)\n- 流派名\n- 代表人物\n- 核心观点\n\n任务 4: 思想影响图 (Mermaid)\n- 节点: 思想家 + 概念\n- 边带 影响/师承/批判\n- subgraph 按时代或流派分组",
+  "sub_examples": ["哲学入门", "思想史", "思想评论", "哲学随笔"],
+  "example_books": ["刘擎西方现代思想讲义", "哲学家们都干了些什么", "人生的智慧"]
+}

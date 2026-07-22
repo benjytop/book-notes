@@ -1,0 +1,12 @@
+{
+  "type_id": "T4_investment",
+  "type_name": "投资/经济",
+  "type_name_en": "Investment / Economics",
+  "vault_subdirs": ["思想家", "理论", "模型", "案例"],
+  "mermaid_filename": "理论关系图.mermaid.md",
+  "mermaid_template": "investment",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本投资/经济书。从 spine 片段中抽取:\n\n任务 1: 思想家 (5-10 个)\n- 巴菲特/芒格/达利欧/霍华德/李录/纳瓦尔等\n- 生平简介\n- 核心思想\n- 关键著作\n\n任务 2: 理论 (5-8 个)\n- 周期理论/价值投资/钟摆理论等\n- 描述\n- 应用\n\n任务 3: 模型 (3-5 个)\n- 周期模型/信用周期/经济周期\n- 描述\n- 应用\n- 局限\n\n任务 4: 案例 (3-5 个)\n- 历史案例 (2008 危机/郁金香泡沫)\n- 背景\n- 启示\n\n任务 5: 理论关系图 (Mermaid)\n- 节点: 思想家/理论/案例\n- 边: 创造/应用/批评",
+  "sub_examples": ["价值投资", "宏观", "周期", "经济学"],
+  "example_books": ["周期", "文明、现代化、价值投资与中国"]
+}

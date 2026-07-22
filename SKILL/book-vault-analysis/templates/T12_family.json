@@ -1,0 +1,12 @@
+{
+  "type_id": "T12_family",
+  "type_name": "育儿/家庭",
+  "type_name_en": "Parenting / Family",
+  "vault_subdirs": ["概念", "方法", "案例"],
+  "mermaid_filename": "概念图谱.mermaid.md",
+  "mermaid_template": "methodology",
+  "entity_count_range": [8, 15],
+  "extraction_prompt": "你正在读《<书名>》这本育儿/家庭书。从 spine 片段中抽取:\n\n任务 1: 概念 (6-10 个)\n- 育儿/家庭概念\n- 定义\n- 适用年龄\n\n任务 2: 方法 (5-8 个)\n- 实用方法\n- 步骤\n- 适用场景\n\n任务 3: 案例 (3-5 个)\n- 真实家庭案例\n- 背景\n- 启示",
+  "sub_examples": ["育儿", "家庭", "健康", "养生"],
+  "example_books": []
+}

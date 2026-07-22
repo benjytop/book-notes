@@ -1,0 +1,12 @@
+{
+  "type_id": "T10_education",
+  "type_name": "教育/学习",
+  "type_name_en": "Education / Learning",
+  "vault_subdirs": ["概念", "理论", "方法", "案例"],
+  "mermaid_filename": "概念图谱.mermaid.md",
+  "mermaid_template": "methodology",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本教育/学习书。从 spine 片段中抽取:\n\n任务 1: 概念 (8-12 个)\n- 教育/学习概念\n- 定义\n- 例子\n\n任务 2: 理论 (3-5 个)\n- 教育理论\n- 提出者\n- 应用\n\n任务 3: 方法 (5-8 个)\n- 教学方法/学习技巧\n- 步骤\n- 适用场景\n\n任务 4: 案例 (3-5 个)\n- 真实教学案例\n- 背景\n- 启示",
+  "sub_examples": ["教育", "育儿", "学习方法"],
+  "example_books": []
+}

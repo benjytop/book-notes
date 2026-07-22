@@ -1,0 +1,12 @@
+{
+  "type_id": "T7_history",
+  "type_name": "历史/纪实",
+  "type_name_en": "History / Non-fiction",
+  "vault_subdirs": ["人物", "事件", "地点", "概念"],
+  "mermaid_filename": "时间线-人物图.mermaid.md",
+  "mermaid_template": "history",
+  "entity_count_range": [10, 20],
+  "extraction_prompt": "你正在读《<书名>》这本历史/纪实书。从 spine 片段中抽取:\n\n任务 1: 人物 (5-15 个)\n- 历史人物/作者/见证者\n\n任务 2: 事件 (10-20 个)\n- 时间/地点/参与者/原因/结果\n\n任务 3: 地点 (5-10 个)\n- 历史地点/地标/城市\n\n任务 4: 概念 (5-10 个)\n- 历史概念/文化术语\n\n任务 5: 时间线-人物图 (Mermaid)\n- 节点: 人物/事件/地点\n- 边: 参与/发生于/影响",
+  "sub_examples": ["历史", "传记", "游记", "纪实"],
+  "example_books": []
+}

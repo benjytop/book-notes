@@ -1,0 +1,12 @@
+{
+  "type_id": "T9_science",
+  "type_name": "科普/科学",
+  "type_name_en": "Science / Popular Science",
+  "vault_subdirs": ["概念", "理论", "案例", "原理"],
+  "mermaid_filename": "概念关系图.mermaid.md",
+  "mermaid_template": "science",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本科普/科学书。从 spine 片段中抽取:\n\n任务 1: 概念 (8-12 个)\n- 科学概念\n- 定义 (专业+通俗)\n- 实验/证据\n- 应用\n\n任务 2: 理论 (3-5 个)\n- 科学理论\n- 提出者/年份\n- 验证状态\n\n任务 3: 案例 (3-5 个)\n- 科学案例/实验\n- 背景\n- 启示\n\n任务 4: 原理 (3-5 个)\n- 自然原理/规律\n- 描述",
+  "sub_examples": ["科学", "自然", "技术", "医学"],
+  "example_books": []
+}

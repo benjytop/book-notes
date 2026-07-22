@@ -1,0 +1,12 @@
+{
+  "type_id": "T3_methodology",
+  "type_name": "方法论/自助",
+  "type_name_en": "Methodology / Self-help",
+  "vault_subdirs": ["概念", "方法", "步骤"],
+  "mermaid_filename": "概念图谱.mermaid.md",
+  "mermaid_template": "methodology",
+  "entity_count_range": [10, 20],
+  "extraction_prompt": "你正在读《<书名>》这本方法论/自助书。从 spine 片段中抽取:\n\n任务 1: 核心概念 (8-12 个)\n- 概念名\n- 定义\n- 例子 (2-3 个)\n- 与其他概念关系 (依赖/并列/包含)\n\n任务 2: 方法/步骤 (5-8 个)\n- 方法名\n- 步骤 (1-2-3)\n- 适用场景\n- 局限\n\n任务 3: 知识图谱 (Mermaid)\n- 节点: 概念\n- 边: 包含/依赖/应用",
+  "sub_examples": ["时间管理", "学习方法", "习惯养成", "认知方法"],
+  "example_books": ["卡片笔记写作法", "费曼学习法"]
+}

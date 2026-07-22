@@ -1,0 +1,12 @@
+{
+  "type_id": "T11_art",
+  "type_name": "艺术/设计",
+  "type_name_en": "Art / Design",
+  "vault_subdirs": ["人物", "作品", "风格", "概念"],
+  "mermaid_filename": "人物-风格图.mermaid.md",
+  "mermaid_template": "art",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本艺术/设计书。从 spine 片段中抽取:\n\n任务 1: 人物 (艺术家/设计师)\n- 生平\n- 作品\n- 风格\n- 影响\n\n任务 2: 作品 (5-10 个)\n- 作品名\n- 年代/类型\n- 风格\n- 影响\n\n任务 3: 风格 (3-5 个)\n- 艺术风格/设计流派\n- 时期\n- 特点\n\n任务 4: 概念 (5-10 个)\n- 艺术/设计概念\n- 定义\n- 例子",
+  "sub_examples": ["艺术", "设计", "建筑", "摄影"],
+  "example_books": []
+}

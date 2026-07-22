@@ -1,0 +1,12 @@
+{
+  "type_id": "T6_politics",
+  "type_name": "政经/时政",
+  "type_name_en": "Politics / Current Affairs",
+  "vault_subdirs": ["人物", "事件", "阵营", "概念"],
+  "mermaid_filename": "阵营-人物图.mermaid.md",
+  "mermaid_template": "politics",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本政经/时政书。从 spine 片段中抽取:\n\n任务 1: 人物 (5-15 个)\n- 政治人物/商人/经济学家/评论家\n- 立场\n- 关键动作\n- 与他人关系\n\n任务 2: 事件 (5-10 个)\n- 时间/地点/参与者/影响\n\n任务 3: 阵营 (3-8 个)\n- 核心人物/主张/代表事件\n\n任务 4: 概念 (5-10 个)\n- 政治概念/经济概念\n\n任务 5: 阵营-人物-时序图 (Mermaid)\n- 节点: 人物/事件/阵营\n- 边: 参与/支持/反对",
+  "sub_examples": ["政治评论", "国际关系", "政策分析"],
+  "example_books": ["美国困局"]
+}

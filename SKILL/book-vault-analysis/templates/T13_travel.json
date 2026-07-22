@@ -1,0 +1,12 @@
+{
+  "type_id": "T13_travel",
+  "type_name": "旅行/地理",
+  "type_name_en": "Travel / Geography",
+  "vault_subdirs": ["地点", "人物", "事件", "概念"],
+  "mermaid_filename": "人物-地点图.mermaid.md",
+  "mermaid_template": "travel",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本旅行/地理书。从 spine 片段中抽取:\n\n任务 1: 地点 (8-15 个)\n- 城市/景点/地标\n- 国家/地区\n- 描述\n- 旅行体验\n\n任务 2: 人物 (5-10 个)\n- 旅行者/作者\n- 当地人/向导\n- 历史人物\n\n任务 3: 事件 (5-10 个)\n- 旅行事件\n- 历史事件\n\n任务 4: 概念 (3-5 个)\n- 文化概念/地理术语",
+  "sub_examples": ["旅行文学", "游记", "地理", "文化"],
+  "example_books": ["血与蜜之地"]
+}

@@ -1,0 +1,12 @@
+{
+  "type_id": "T8_psychology",
+  "type_name": "心理/自助",
+  "type_name_en": "Psychology / Self-help",
+  "vault_subdirs": ["概念", "理论", "方法", "案例"],
+  "mermaid_filename": "概念图谱.mermaid.md",
+  "mermaid_template": "methodology",
+  "entity_count_range": [10, 18],
+  "extraction_prompt": "你正在读《<书名>》这本心理/自助书。从 spine 片段中抽取:\n\n任务 1: 概念 (8-12 个)\n- 心理学概念\n- 定义\n- 例子\n- 实验/研究\n\n任务 2: 理论 (3-5 个)\n- 心理学理论\n- 提出者\n- 应用\n\n任务 3: 方法 (3-5 个)\n- 实用方法\n- 步骤\n- 适用场景\n\n任务 4: 案例 (3-5 个)\n- 真实案例\n- 背景\n- 启示",
+  "sub_examples": ["心理学", "情绪管理", "自助"],
+  "example_books": []
+}
