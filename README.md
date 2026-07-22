@@ -12,9 +12,9 @@ Obsidian 书籍导读与分析
 
 ## 工具
 
-用 `book-vault-analysis` SKILL 分析每本书, 自动生成 Obsidian vault.
-基础 SKILL 从 PRD 生成，后续为了节省 Token，将重复分析行为固化成 Script.
-本仓库仅提供 Mac 版本，其他版本可以让 LLM 从 PRD 重新生成.
+用 `book-vault-analysis` SKILL 分析每本书, 自动生成 Obsidian vault。
+基础 SKILL 从 PRD 生成，后续为了节省 Token，将重复分析行为固化成 Script。
+本仓库仅提供 Mac 版本，其他版本可以让 LLM 从 PRD 重新生成。
 
 ## SKILL 文件位置
 
@@ -39,7 +39,7 @@ SKILL/book-vault-analysis/
 
 ## 14 大类图书分类
 
-`book-vault-analysis` SKILL 把书分类到 14 大类之一, 不同类型生成不同的 vault 结构.
+`book-vault-analysis` SKILL 把书分类到 14 大类之一, 不同类型生成不同的 vault 结构。
 
 | ID | 类型 | 说明 |
 |---|---|---|
